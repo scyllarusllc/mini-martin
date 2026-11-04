@@ -49,4 +49,7 @@ yourself (e.g. `setsid -f google-chrome-stable`) if they ask you to.
 
 Full list: `references/all-bindings.txt`. It can go stale; for the live list run
 `omarchy menu keybindings --print`. User overrides are in
-`~/.config/hypr/bindings.lua`.
+`~/.config/hypr/bindings.lua`. The ALT-as-Cmd bindings are not an Omarchy
+default (Omarchy uses SUPER+C/V/X); they are defined in that file, and a copy
+lives in `config/alt-bindings.lua`. If ALT shortcuts stop working, check that
+block is still present.
