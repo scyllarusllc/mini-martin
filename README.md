@@ -31,3 +31,12 @@ Refresh the keybinding list:
 ```bash
 omarchy menu keybindings --print > skills/key-binding/references/all-bindings.txt
 ```
+
+## Notes
+
+- Default browser on this machine is Google Chrome (`google-chrome.desktop`). If a browser launch fails with "command not found", check `~/.config/mimeapps.list` for entries pointing at an uninstalled browser, and verify with `omarchy-cmd-default-browser`.
+- GitHub CLI login: `gh auth login -h github.com -p https -w`, then enter the one-time code printed in the terminal at https://github.com/login/device.
+
+## License
+
+MIT
